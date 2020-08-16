@@ -1,4 +1,72 @@
-h1 {
-  font-style: italic;
-  color: yellow;
+.navbar:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.699);
 }
+.navbrand {
+  /* font-family: "Cormorant Upright", serif; */
+  /* font-family: "Lemonada", cursive; */
+  /* font-family: "Sriracha", cursive; */
+  font-family: "MuseoModerno", cursive;
+  font-size: 2.5rem;
+  color: #fff;
+}
+.nav-link {
+  font-family: "MuseoModerno", cursive;
+}
+
+/* Brackets go out */
+.code > .item::before,
+.code > .item::after {
+  position: sticky;
+  opacity: 0;
+  transition: all 0.1s ease-in;
+}
+
+.code > .item:hover::after {
+  content: ">";
+  right: 0px;
+  transform: translateX(-10px);
+}
+.code > .item:hover::before {
+  content: "<";
+  left: 0px;
+  transform: translateX(10px);
+}
+
+.code > .item:hover::before,
+.code > .item:hover::after {
+  opacity: 1;
+  transform: translateX(0px);
+}
+/* Brackets go out */
+
+.start-btn {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 3rem;
+  margin: 15rem 10rem;
+}
+/* Profie Section */
+#profile {
+  text-align: center;
+  color: #fff;
+  background-color: #007bff;
+}
+/* Background Image */
+body,
+html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url("/images/vinu-7.jpg");
+  margin-top: 0.3 rem;
+  /* Half height */
+  height: 150%;
+  width: auto;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Background Image */
+
