@@ -57,7 +57,7 @@ html {
 }
 .bg {
   /* The image used */
-  background-image: url("https://vinayajaygawade.github.io/My-WebSite/images/vinu-7.jpg");
+  background-image: url("/My-WebSite/images/vinu-7.jpg");
   
  /* background-image: url("/images/vinu-7.jpg");*/
   margin-top: 0.3 rem;
