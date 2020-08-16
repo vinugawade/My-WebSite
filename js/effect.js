@@ -4,6 +4,6 @@ function typeWriter(txtin) {
   if (i < txt.length) {
     document.getElementById("terminal-text").innerHTML += txt.charAt(i);
     i++;
-    setTimeout(typeWriter, 200);
+    setTimeout(typeWriter, 50000);
   }
 }
