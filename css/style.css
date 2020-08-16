@@ -7,8 +7,8 @@
   /* font-family: "Sriracha", cursive; */
   font-family: "MuseoModerno", cursive;
   font-size: 2.5rem;
-  color: #fff;
 }
+
 .nav-link {
   font-family: "MuseoModerno", cursive;
 }
@@ -47,23 +47,31 @@
 /* Profie Section */
 #profile {
   text-align: center;
-  color: #fff;
-  background-color: #007bff;
+  padding: 10% 15%;
 }
 /* Background Image */
 body,
 html {
   height: 100%;
 }
+/* Background Image */
 .bg-header {
-  /* The image used */
+  padding: 2% 5%;
   background-image: url("/images/vinu-7.jpg");
-
-  /* Half height */
   height: 150%;
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 0;
 }
+/* .bg-profile {
+  position: relative;
+  z-index: 1;
+  opacity: 0.5;
+  background-image: url("/images/vinu-8.jpg");
+  height: 150%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 /* Background Image */
