@@ -1,9 +1,13 @@
 body,
 html {
-  height: 100%;
+  height: 105%;
 }
 img:hover {
   opacity: 0.9;
+}
+
+h1 {
+  font-family: "MuseoModerno", cursive;
 }
 
 /* NavBar */
@@ -60,7 +64,9 @@ img:hover {
   text-align: center;
 }
 /* section */
-
+.profile-text {
+  padding: 30% 2% 25%;
+}
 /* Background Image */
 .bg-header {
   padding: 2% 5%;
@@ -75,7 +81,7 @@ img:hover {
 /* Background Image */
 
 /* Top Animation */
-img {
+/* img {
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -87,15 +93,26 @@ img {
   100% {
     opacity: 1;
   }
-}
-
+} */
 nav {
   animation: 1s ease-out 0s 1 slideInFromTop;
   padding: 30px;
 }
+.profile-text {
+  animation: 1s ease-out 0s 1 FadedIn;
+}
 
 .start-btn {
   animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+@keyframes FadedIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @keyframes slideInFromTop {
   0% {
