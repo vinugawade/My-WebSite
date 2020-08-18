@@ -54,9 +54,11 @@ h1 {
 /* Brackets go out */
 
 .start-btn {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.699);
+  color: #ffff;
   font-family: "Ubuntu Mono", monospace;
   font-size: 3rem;
-  margin: 15rem 10rem;
+  margin: 15% 10%;
 }
 
 /* section */
