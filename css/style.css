@@ -1,6 +1,15 @@
-.navbar:hover {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.699);
+body,
+html {
+  height: 100%;
 }
+img:hover {
+  opacity: 0.9;
+}
+
+/* NavBar */
+/* .navbar:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.699);
+} */
 .navbrand {
   /* font-family: "Cormorant Upright", serif; */
   /* font-family: "Lemonada", cursive; */
@@ -12,6 +21,7 @@
 .nav-link {
   font-family: "MuseoModerno", cursive;
 }
+/* NavBar */
 
 /* Brackets go out */
 .code > .item::before,
@@ -44,16 +54,13 @@
   font-size: 3rem;
   margin: 15rem 10rem;
 }
-/* Profie Section */
+
+/* section */
 #profile {
   text-align: center;
-  padding: 10% 15%;
 }
-/* Background Image */
-body,
-html {
-  height: 100%;
-}
+/* section */
+
 /* Background Image */
 .bg-header {
   padding: 2% 5%;
@@ -64,14 +71,47 @@ html {
   background-size: cover;
   z-index: 0;
 }
-/* .bg-profile {
-  position: relative;
-  z-index: 1;
-  opacity: 0.5;
-  background-image: url("/images/vinu-8.jpg");
-  height: 150%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
+
 /* Background Image */
+
+/* Top Animation */
+img {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+nav {
+  animation: 1s ease-out 0s 1 slideInFromTop;
+  padding: 30px;
+}
+
+.start-btn {
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+/* Top Animation */
