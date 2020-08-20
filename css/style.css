@@ -5,9 +5,13 @@ html {
 img:hover {
   opacity: 0.9;
 }
-
-h1 {
-  font-family: "MuseoModerno", cursive;
+hr {
+  border-top: 6px dotted rgb(0, 225, 255);
+  width: 20%;
+}
+.portfolio-text {
+  text-align: center;
+  font-family: "Cormorant Upright", serif;
 }
 
 /* NavBar */
@@ -64,6 +68,9 @@ h1 {
 /* section */
 #profile {
   text-align: center;
+}
+#portfolio {
+  background-color: aqua;
 }
 /* section */
 .profile-text {
