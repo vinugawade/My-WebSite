@@ -5,12 +5,10 @@ html {
 img:hover {
   opacity: 0.9;
 }
-hr {
-  border-top: 6px dotted rgb(0, 225, 255);
-  width: 20%;
-}
 .portfolio-text {
+  margin: 0;
   text-align: center;
+  padding: 30px 0;
   font-family: "Cormorant Upright", serif;
 }
 
@@ -70,7 +68,13 @@ hr {
   text-align: center;
 }
 #portfolio {
-  background-color: aqua;
+  background-color: #a6dcef;
+}
+#contact{
+  padding: 3% 7%;
+}
+.card {
+  background-color: #faeee7;
 }
 /* section */
 .profile-text {
