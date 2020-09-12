@@ -37,8 +37,12 @@
     />
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <script src= 
+	"https://smtpjs.com/v3/smtp.js"> 
+</script> 
     <link rel="stylesheet" href="css/style.css" />
     <script type="text/javascript" src="js/effect.js"></script>
+    <script type="text/javascript" src="js/Email.js"></script>
   </head>
   <!-- <i class="fas fa-terminal"></i>terminal
     <i class="fas fa-qrcode"></i> QR
@@ -444,13 +448,13 @@
                 <div class="row">
                   <div class="col-md-12">
                     <div class="md-form mb-0">
-                      <input
+                      <!-- <input
                         type="text"
                         id="subject"
                         name="subject"
                         class="form-control"
                       />
-                      <label for="subject" class="">Subject</label>
+                      <label for="subject" class="">Subject</label> -->
                     </div>
                   </div>
                 </div>
@@ -478,7 +482,7 @@
               <div class="text-center text-md-left">
                 <a
                   class="btn btn-primary"
-                  onclick="document.getElementById('contact-form').submit();"
+                  onclick="sendEmail()"
                   >Send</a
                 >
               </div>
@@ -516,6 +520,11 @@
                   <i class="fab fa-telegram fa-3x"></i>
 
                   <p>Telegram</p>
+                </li>
+                <li>
+                  <i class="fab fa-youtube-square fa-3x"></i>
+
+                  <p>Youtube</p>
                 </li>
               </ul>
             </div>

@@ -145,3 +145,23 @@ nav {
   }
 }
 /* Top Animation */
+
+/* Hover Icons */
+.fa-facebook-square:hover{
+  color: #3B5998 ;
+}
+.fa-instagram-square:hover{
+  color:#DD2A7B;
+}
+.fa-linkedin:hover{
+  color:#0077B5;
+}
+.fa-youtube-square:hover{
+  color:#E62117;
+}
+.fa-telegram:hover{
+  color:rgb(0, 162, 255);
+}
+.fa-whatsapp-square:hover{
+  color:#4FCE5D;
+}
